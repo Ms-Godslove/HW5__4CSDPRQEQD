@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/covid.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <p id="logo">p</p>
+        </div>
+        <div class="text">
+            <p>PaSe Covid-19</p>
+        </div>
+    </div>
+
+    <div class="dashboard">
+        <div class="cases">
+            <p>Total Confirmed <i class="fa fa-caret-up fa-lg"></i></p>
+            <span id='total-cases'></span>
+        </div>
+        <div class="cases">
+            <p>Total Recovered <i class="fa fa-caret-down fa-lg"></i></p>
+            <span id="total-recovered"></span>
+        </div>
+        <div class="cases">
+            <p>Total Active <i class="fa fa-caret-up fa-lg"></i></p>
+            <span id="total-active"></span>
+        </div>
+        <div class="cases">
+            <p>Total Deaths <i class="fa fa-caret-up fa-lg"></i></p>
+            <span id="total-deaths"></span>
+        </div>
+    </div>
+
+    <div class="data">
+        <table border="1">
+            <thead id="thd">
+                <tr>
+                    <th>Country_Region</th>
+                    <th>Active</th>
+                    <th>Recoverd</th>
+                    <th>Deaths</th>
+                    <th>Confirmed</th>       
+                </tr>
+            </thead>
+            <tbody id="tbd">
+                <div id="loading"></div>
+            </tbody>    
+        </table>
+
+        <div>
+            <div class="tips">
+                <img src="./image/covid img 1.jpg" alt="image depicting the covid-19 virus: " width="260" height="250px">
+            </div>
+            <div class="tips">
+                <img src="image/covid img 2.jpg" alt="image depicting the safety precautions of covid-19: " width="260" height="250px">
+            </div>
+            <div class="tips">
+                <p>Signs and Sympthoms</p>
+                <img src="./image/sympthoms.jpg" alt="image showing signs of covid 19 which include running nose, fever, sneezing and coughing." width="250" height="160px">
+            </div>
+            <div class="tips">
+                <p>Daily Quote</p>
+                <img src="./image/COVID19quote.jpg" alt="image showing a quote on COVID 19: Its not going to be this way forever." width="250" height="160px">
+            </div>
+            <div class="tips">
+                <p>Detect Signs? See a doctor!</p>
+                <img src="./image/doc appointment.jpg" alt="image telling you to see a doctor if you detect sympthoms" width="250" height="160px">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
